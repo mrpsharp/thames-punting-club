@@ -48,9 +48,12 @@
 $global-font-size: 100%;
 $global-width: rem-calc(1200);
 $global-lineheight: 1.5;
+$tpc-pink: #e8a59d;
+$tpc-blue: #060642;
+$tpc-yellow:#fffaf0;
 $foundation-palette: (
-  primary: #2199e8,
-  secondary: #777,
+  primary: $tpc-yellow,
+  secondary: $tpc-pink,
   success: #3adb76,
   warning: #ffae00,
   alert: #ec5840,
@@ -60,8 +63,8 @@ $medium-gray: #cacaca;
 $dark-gray: #8a8a8a;
 $black: #0a0a0a;
 $white: #fefefe;
-$body-background: $white;
-$body-font-color: $black;
+$body-background: $tpc-yellow;
+$body-font-color: #060642;
 $body-font-family: 'Helvetica Neue', Helvetica, Roboto, Arial, sans-serif;
 $body-antialiased: true;
 $global-margin: 1rem;
@@ -310,7 +313,7 @@ $dropdownmenu-arrows: true;
 $dropdownmenu-arrow-color: $anchor-color;
 $dropdownmenu-min-width: 200px;
 $dropdownmenu-background: $white;
-$dropdownmenu-border: 1px solid $medium-gray;
+$dropdownmenu-border: 1px solid $tpc-blue;
 
 // 18. Flex Video
 // --------------
@@ -559,8 +562,9 @@ $tooltip-radius: $global-radius;
 // -----------
 
 $topbar-padding: 0.5rem;
-$topbar-background: $light-gray;
+$topbar-background: $tpc-blue;
 $topbar-submenu-background: $topbar-background;
+$topbar-color: $tpc-yellow;
 $topbar-title-spacing: 1rem;
 $topbar-input-width: 200px;
 $topbar-unstack-breakpoint: medium;

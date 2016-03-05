@@ -1,3 +1,4 @@
 ---
+title: Calendar
 layout: default
 ---

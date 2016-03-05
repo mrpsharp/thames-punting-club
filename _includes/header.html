@@ -1,25 +1,28 @@
 <header>
+
   <nav class="top-bar">
+    </div>
+      <div id="responsive-menu">
     <div class="top-bar-left">
       <ul class="dropdown menu" data-dropdown-menu>
-        <li class="menu-text">Site Title</li>
-        <li class="has-submenu">
-          <a href="#">One</a>
-          <ul class="submenu menu vertical" data-submenu>
-            <li><a href="#">One</a></li>
-            <li><a href="#">Two</a></li>
-            <li><a href="#">Three</a></li>
-          </ul>
-        </li>
-        <li><a href="#">Two</a></li>
-        <li><a href="#">Three</a></li>
+        {% for menu-item in site.data.menu %}
+          {% if menu-item.submenu %}
+            <li class="has-submenu">
+              <a href="{{ menu-item.url }}">{{ menu-item.title }}</a>
+              <ul class="submenu menu vertical{% if menu-item.url == page.url %} active{% endif %}" data-submenu>
+                {% for menu-item in menu-item.submenu %}
+                  <li><a href="{{ menu-item.url }}">{{ menu-item.title }}</a></li>
+                {% endfor %}
+              </ul>
+            </li>
+          {% else %}
+            <li {% if menu-item.url == page.url %} class="active"{% endif %}><a href="{{ menu-item.url }}">{{ menu-item.title }}</a></li>
+          {% endif %}
+          {% endfor %}
       </ul>
     </div>
-    <div class="top-bar-right">
-      <ul class="menu">
-        <li><input type="search" placeholder="Search"></li>
-        <li><button type="button" class="button">Search</button></li>
-      </ul>
-    </div>
+  </div>
+
+
   </nav>
 </header>

@@ -1,0 +1,19 @@
+- title: "Home"
+  url: "/"
+
+- title: "News"
+  url: "/news"
+
+- title: "About"
+  url: "/about"
+
+- title: "Clubs"
+  url: "/clubs"
+
+- title: "Events"
+  url: "#"
+  submenu:
+    - title: "Punting Championships"
+      url: "/championships"
+    - title: "Calendar"
+      url: "/calendar"

@@ -16,3 +16,17 @@ main {
     right: 20px;
   }
 }
+
+.menu {
+  .active > a {
+    background: $tpc-pink;
+  }
+  li {
+    &:hover {
+      background: $tpc-pink;
+    }
+    a:hover {
+      color: $tpc-yellow;
+    }
+  }
+}
