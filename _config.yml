@@ -11,7 +11,7 @@ email: peter@petersharp.org
 description: > # this means to ignore newlines until "baseurl:"
   The website of the Thames Punting Club, the governing body of punt racing in the UK. Thames Punting Club was formed in 1885 as a racing club. It is now no longer a racing club but functions as the sport’s governing body.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://www.punting.org.uk" # the base hostname & protocol for your site
+url: "http://mrpsharp.github.io/thames-punting-club" # the base hostname & protocol for your site
 twitter_username: tpc1885
 permalinks: pretty
 # github_username:  jekyll
