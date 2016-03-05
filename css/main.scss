@@ -17,6 +17,11 @@ main {
   }
 }
 
+.banner {
+  background: $tpc-yellow;
+  padding: 1em;
+}
+
 .menu {
   .active > a {
     background: $tpc-pink;
@@ -28,5 +33,12 @@ main {
     a:hover {
       color: $tpc-yellow;
     }
+  }
+}
+
+.slick-slider {
+  img {
+    width: 100%;
+    max-height: 400px;
   }
 }

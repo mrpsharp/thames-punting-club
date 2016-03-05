@@ -1,6 +1,10 @@
 <footer class="site-footer">
-
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
   <script src="/js/foundation.min.js"></script>
+  {% if page.slick %}
+  <script type="text/javascript" src="/assets/slick/slick.min.js"></script>
+  <script type="text/javascript" src="/js/slick-{{ page.slick }}.js"></script>
+  {% endif %}
   <script>
     $(document).foundation();
   </script>
