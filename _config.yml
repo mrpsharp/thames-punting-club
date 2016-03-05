@@ -6,16 +6,14 @@
 # 'jekyll serve'. If you change this file, please restart the server process.
 
 # Site settings
-title: Your awesome title
-email: your-email@domain.com
+title: Thames Punting Club
+email: peter@petersharp.org
 description: > # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  The website of the Thames Punting Club, the governing body of punt racing in the UK. Thames Punting Club was formed in 1885 as a racing club. It is now no longer a racing club but functions as the sport’s governing body.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://yourdomain.com" # the base hostname & protocol for your site
-twitter_username: jekyllrb
-github_username:  jekyll
+url: "http://www.punting.org.uk # the base hostname & protocol for your site
+twitter_username: tpc1885
+# github_username:  jekyll
 
 # Build settings
 markdown: kramdown
