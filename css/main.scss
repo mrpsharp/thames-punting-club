@@ -4,25 +4,19 @@
 @import 'foundation';
 @include foundation-everything;
 
-main {
-  @include grid-row;
-  article {
-    header, div:first {
-      @include grid-column(12);
-    }
-  }
-  padding : {
-    left: 20px;
-    right: 20px;
-  }
-}
 
 .banner {
   background: $tpc-yellow;
-  padding: 1em;
+  padding: 0;
+  .flag{
+    padding-top: 1em;
+  }
 }
 
 .menu {
+  a {
+    color: $tpc-yellow;
+  }
   .active > a {
     background: $tpc-pink;
   }
@@ -35,10 +29,39 @@ main {
     }
   }
 }
+.no-js {
+  .top-bar {
+    display: none;
+  }
+}
+
+a {
+  color: $tpc-pink;
+}
 
 .slick-slider {
   img {
     width: 100%;
     max-height: 400px;
+  }
+}
+
+.social-button {
+  background: $tpc-blue;
+  &:hover{
+    background: $tpc-pink;
+  }
+}
+
+.club {
+      text-align: center;
+  h3 {
+    font-size: 1.5em;
+  }
+  img {
+
+  }
+  a:hover {
+    color: $tpc-pink;
   }
 }
