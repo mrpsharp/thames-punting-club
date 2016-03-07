@@ -4,7 +4,9 @@
 @import 'foundation';
 @include foundation-everything;
 
-
+.title-bar {
+  background: $tpc-blue;
+}
 .banner {
   background: $tpc-yellow;
   padding: 0;
@@ -29,12 +31,20 @@
     }
   }
 }
+
 .no-js {
-  .top-bar {
-    display: none;
+  @include breakpoint(small only) {
+    .top-bar {
+      display: none;
+    }
+  }
+
+  @include breakpoint(medium) {
+    .title-bar {
+      display: none;
+    }
   }
 }
-
 a {
   color: $tpc-pink;
 }
