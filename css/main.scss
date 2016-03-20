@@ -62,16 +62,22 @@ a {
     background: $tpc-pink;
   }
 }
-
+h3 {
+  font-size: 1.5em;
+}
 .club {
       text-align: center;
-  h3 {
-    font-size: 1.5em;
-  }
+
   img {
 
   }
   a:hover {
     color: $tpc-pink;
+  }
+}
+
+.post-list {
+  ul {
+    list-style-type: none;
   }
 }
