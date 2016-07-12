@@ -11,16 +11,29 @@ slick: index
   <p>The enthusiastic punter knows no diviner rapture than that of hearing the water murmur, of seeing the wooded shores drift by, and the shining sheet of water wooing his or her advance... [Newspaper, 1891]</p>
 </div>
 
-<div class="row column">
-  <h2>Latest News</h2>
-  <div class="post-list">
-    <ul>
-      {% for post in site.posts limit:3 %}
-        <li>
-          <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
-          {{ post.excerpt }}
-        </li>
-      {% endfor %}
-    </ul>
+<div class="row">
+  <div class="column large-8">
+    <h2>Latest News</h2>
+    <div class="post-list">
+      <ul>
+        {% for post in site.posts limit:3 %}
+          <li>
+            <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
+            {{ post.excerpt }}
+          </li>
+        {% endfor %}
+      </ul>
+    </div>
+  </div>
+  <div class="column large-4">
+    <div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v2.6";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+<div class="fb-page" data-href="https://www.facebook.com/Thames-Punting-Club-306282322727882/" data-tabs="timeline, events" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="false"><blockquote cite="https://www.facebook.com/Thames-Punting-Club-306282322727882/" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/Thames-Punting-Club-306282322727882/">Thames Punting Club</a></blockquote></div>
   </div>
 </div>
