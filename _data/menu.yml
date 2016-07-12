@@ -6,9 +6,15 @@
 
 - title: "About"
   url: "/about"
+  submenu:
+    - title: "Punt Racing Rules"
+      url: "/img/tpc-rule-book-2001.pdf"
 
 - title: "Clubs"
   url: "/clubs"
+  submenu:
+    - title: "Map"
+      url: /map.html
 
 - title: "Events"
   url: "#"
