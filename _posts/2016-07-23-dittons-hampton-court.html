@@ -1,0 +1,13 @@
+---
+layout: post
+title:  "Dittons and Hampton Court Regatta 2016"
+---
+Under sunny skies a great set of races took place on Saturday 23 July 2016.
+
+<h2>Results</h2>
+<table style='width: 600px;'>
+  {% for race in site.data.2016-hcdittons %}
+    <tr><td>Race {{ race.number }}</td><td style='text-align: center;' colspan=3><strong>{{ race.event }}</strong></td></tr>
+    <tr><td></td><td>{{ race.winner }}</td><td>beat</td><td>{{ race.loser }}</td></tr>
+  {% endfor %}
+</table>
