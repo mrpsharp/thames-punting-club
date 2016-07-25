@@ -10,7 +10,7 @@
 
 - number: 14<br><strong>FINAL</strong>
   event: Classified &amp; Drawn
-  winner: M Vellcott (DSPC)<br>T Cross (TPC)
+  winner: M Vellacott (DSPC)<br>T Cross (TPC)
   loser: S Nairne (DSPC)<br>P Sharp (SC)
 
 - number: 13
@@ -32,3 +32,48 @@
   event: Ladies' Novice Restricted Singles
   winner: S Stanley (SC)
   loser: F Sharp (SC)
+
+- number: 9<br><strong>FINAL</strong>
+  event: Mixed Doubles Handicap
+  winner: P Williams (DSPC)<br>N MacLean (DSPC)
+  loser: J Graham (TVSC)<br>N Mepham (TVSC)
+
+- number: 8
+  event: Tonto's Scalp Challenge for Braves and Squaws
+  winner: P Sharp (SC)
+  loser: J Juriansz (SC)
+
+- number: 7
+  event: Tonto's Scalp Challenge for Braves and Squaws
+  winner: M Hart (DSPC)
+  loser: J Porter (SC)
+
+- number: 6
+  event: Tonto's Scalp Challenge for Braves and Squaws
+  winner: N MacLean (DPSC)
+  loser: T Cross (TPC)
+
+- number: 5
+  event: Mixed Doubles Handicap
+  winner: J Graham (TVSC)<br>N Mepham (TVSC)
+  loser: J Juriansz (SC)<br>A Juriansz (SC)
+
+- number: 4<br><strong>FINAL</strong>
+  event: Ladies Best and Best Handicap
+  winner: N MacLean (DSPC)
+  loser: J Juriansz (SC)
+
+- number: 3
+  event: Gentlemen's Doubles Handicap
+  winner: M Hart (DSPC)<br>M Vellacott (DSPC)
+  loser: P Williams (DSPC)<br>S Nairne (DSPC)
+
+- number: 2<br><strong>FINAL</strong>
+  event: Gentlemen's Junior 2ft Singles
+  winner: P Williams (DSPC)
+  loser: A Juriansz (SC)
+
+- number: 1
+  event: Mixed Doubles Handicap
+  winner: P Williams (DSPC)<br>N MacLean (DSPC)
+  loser: P Sharp (SC)<br>J Porter (SC)
