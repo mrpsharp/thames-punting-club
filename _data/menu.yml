@@ -19,7 +19,9 @@
 - title: "Events"
   url: "#"
   submenu:
-    - title: "Punting Championships"
-      url: "/championships"
+    - title: "Results"
+      url: "/results"
     - title: "Calendar"
       url: "/calendar"
+    - title: "Punting Championships"
+      url: "/championships"
