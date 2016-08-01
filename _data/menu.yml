@@ -9,6 +9,8 @@
   submenu:
     - title: "Punt Racing Rules"
       url: "/img/tpc-rule-book-2001.pdf"
+    - title: "TPC Punting Guide"
+      url: "/img/tpc-punting-guide.pdf"
 
 - title: "Clubs"
   url: "/clubs"
