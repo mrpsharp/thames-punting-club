@@ -7,6 +7,8 @@
 - title: "About"
   url: "/about"
   submenu:
+    - title: "Go punting!"
+      url: "/go-punting"
     - title: "Punt Racing Rules"
       url: "/img/tpc-rule-book-2001.pdf"
     - title: "TPC Punting Guide"
