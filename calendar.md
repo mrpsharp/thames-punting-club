@@ -2,18 +2,17 @@
 title: Calendar
 layout: page
 ---
-# Calendar 2016
+# Calendar 2017
 
-| Date                   | Event                             |
-|:-----------------------|:----------------------------------|
-| Monday 21 March        | Annual General Meeting (Dittons)  |
-| Saturday 16 July       | TVSC Regatta                      |
-| Saturday 23 July       | Hampton Court and Dittons Regatta |
-| Fri/Sat 29/30 July     | Wargrave and Shiplake Regatta     |
-| Saturday 30 July       | Chertsey and Shepperton Regatta   |
-| **Sunday 7 August**    | **Punting Chapionships**          |
-| Saturday 13 August     | Sunbury Regatta                   |
-| Saturday 20 August     | Walton Reach Regatta              |
-| Saturday 3 September   | The Skiff Club Regatta            |
-| Saturday 10 Septemeber | WSPC Regatta                      |
-| Satruday 17 September  | DSPC Regatta                      |
+| Date         | Event                         |
+|:-------------|:------------------------------|
+| 15 July      | TVSC club                     |
+| 22 July      | Hampton Court & Dittons       |
+| 29 July      | Chertsey                      |
+| 5 August     | Wraysbury & Old Windsor       |
+| **6 August** | **TPC Punting Championships** |
+| 12 August    | Sunbury                       |
+| 19 August    | Walton Reach                  |
+| 2 September  | Skiff Club                    |
+| 16 September | DSPC club                     |
+| 23 September | WSPC club                     |
