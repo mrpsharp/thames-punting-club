@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Punting Championships 2016"
+title:  "Punting Championships 2017"
 category: results
 fancybox: true
 ---
