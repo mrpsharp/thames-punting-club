@@ -1,9 +1,9 @@
 ---
 title: About
-layout: default
+layout: page
 permalink: /about
 ---
-## Punting 
+## Punting
 *Text from Wikipedia.*
 
 Punting as a means of water travel has a long history in the United Kingdom and is now practiced recreationally on a number of rivers, being most obviously associated with Oxford and Cambridge universities. Punt racing, as a sport developed in the 1880s. Thames Punting Club was formed in 1885 as a racing club. It is now no longer a racing club but functions as the sport’s governing body.

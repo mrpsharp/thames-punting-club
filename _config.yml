@@ -13,7 +13,7 @@ description: > # this means to ignore newlines until "baseurl:"
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://www.punting.org.uk" # the base hostname & protocol for your site
 twitter_username: tpc1885
-permalinks: pretty
+permalink: /:year/:month/:title
 # github_username:  jekyll
 
 sass:

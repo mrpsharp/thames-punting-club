@@ -6,14 +6,26 @@
 
 - title: "About"
   url: "/about"
+  submenu:
+    - title: "Punt Racing Rules"
+      url: "/img/tpc-rule-book-2001.pdf"
+    - title: "TPC Punting Guide"
+      url: "/img/tpc-punting-guide.pdf"
 
-- title: "Clubs"
-  url: "/clubs"
+- title: "Go Punting!"
+  url: "/go-punting"
+  submenu:
+    - title: "Clubs"
+      url: "/clubs"
+    - title: "Map"
+      url: /map.html
 
 - title: "Events"
   url: "#"
   submenu:
-    - title: "Punting Championships"
-      url: "/championships"
+    - title: "Results"
+      url: "/results"
     - title: "Calendar"
       url: "/calendar"
+    - title: "Punting Championships"
+      url: "/championships"

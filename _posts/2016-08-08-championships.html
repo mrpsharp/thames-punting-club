@@ -1,0 +1,39 @@
+---
+layout: post
+title:  "Punting Championships 2016"
+category: results
+fancybox: true
+---
+The one hundred and thirty first Thames Punting Club Regatta took place on 7 August 2016.
+
+<h2>Results</h2>
+
+<table style='width: 800px;'>
+  <tr><th>Event</th><th>Winner</th></tr>
+  {% for race in site.data.2016-championships %}
+  {% assign fileparts = race.photo | split:"/" %}
+    <tr>
+      <td>{{ race.event }}</td>
+      <td> {{ race.winner }}</td>
+    </tr>
+  {% endfor %}
+</table>
+
+<h2>Photos</h2>
+<div class="row column">
+  <p>These photographs were taken by Steve Parsons and are copyrighted by the Press Association.</p>
+
+  <p>More photographs are available on <a href="https://www.facebook.com/pages/Thames-Punting-Club/306282322727882?sk=timeline">Facebook</a> and also on <a href="https://goo.gl/photos/92VFoGnr2Cr5j9i98">Google Photos</a></p>
+
+  <p>There is also a <a href="https://www.youtube.com/watch?v=LrUviqdvmG4&feature=youtu.be">video of the race between a gondola and a punt</a>!</p>
+  </div>
+<div class="row small-up-1 medium-up-2 large-up-4">
+{% for image in site.static_files %}
+    {% if image.path contains 'img/2016-08-07-champs/SPpunting' %}
+      {% assign fileparts = image.path | split:"/" %}
+      <div class="column">
+        <a class="fancybox" rel="group" href="{{ image.path }}"><img class="thumbnail" src="/{{fileparts[1]}}/{{fileparts[2]}}/thumb-{{fileparts[3]}}" alt="" /></a>
+      </div>
+    {% endif %}
+{% endfor %}
+</div>
